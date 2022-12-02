@@ -1,0 +1,10 @@
+<?php
+//--   Select * from player table.
+//--  1- Connect to the DB server
+$connect = mysqli_connect("localhost", "user", "user", "RPG");
+
+if (!$connect)
+{
+    die("<br/> Error: occured while trying to connect to the DB " . mysqli_error($connect));
+}
+?>
